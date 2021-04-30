@@ -5,7 +5,7 @@ function checkButton() {
         var money = Math.floor(Math.random() * 500) + 1;
         ++trys;
         
-        if(random % 4 == 0) {
+        if(random % 5 == 0) {
             wallet += money;
             
             if(wallet >= target || trys >= max_trys) {
